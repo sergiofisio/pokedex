@@ -1,0 +1,8 @@
+.cardPokemon {
+  display: flex;
+  flex-direction: column;
+}
+
+.imgPokemon {
+  width: 200px;
+}
