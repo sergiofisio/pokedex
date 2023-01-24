@@ -1,0 +1,32 @@
+.card {
+  background-color: var(--bg-card);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+
+  width: 350px;
+  height: 300px;
+  border: 3px solid black;
+  border-radius: 30px;
+
+  background-size: 75%;
+  background-position: top;
+  background-repeat: no-repeat;
+
+  margin: 10px;
+  cursor: pointer;
+}
+
+.card h1 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding: 1% 0;
+
+  background-color: black;
+  width: 100%;
+  color: var(--bg-card);
+  text-align: center;
+
+  border-radius: 0 0 25px 25px;
+}

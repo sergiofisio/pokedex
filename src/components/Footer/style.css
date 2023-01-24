@@ -1,0 +1,14 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--header);
+
+  height: 300px;
+  margin-top: 30px;
+}
+
+img {
+  width: 500px;
+}

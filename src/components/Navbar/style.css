@@ -1,0 +1,15 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 100px;
+  width: 100%;
+  background-color: var(--header);
+}
+
+.logo {
+  width: 300px;
+}
+
+.theme {
+  width: 100px;
+}
