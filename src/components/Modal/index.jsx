@@ -6,7 +6,6 @@ import pokeball from "../../assets/pokeball.svg";
 import './style.css';
 
 export default function Modal({ pokemon, setHidden }) {
-    console.log(pokemon);
     let img = pokemon.sprites.other.home.front_default
     let shiny = pokemon.sprites.other.home.front_shiny
     if (!shiny) {

@@ -3,6 +3,7 @@ import pokeball from "../../assets/pokeball.svg";
 import './style.css';
 
 export default function PokemonCard({ pokemon, onClick }) {
+    console.log(pokemon);
     const name = pokemon.name
     let img = pokemon.sprites.other.home.front_default
     if (!img) {

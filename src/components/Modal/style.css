@@ -170,7 +170,12 @@
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
-  padding: 10px 0;
+  justify-content: center;
+}
+
+.stat {
+  margin-right: 30px;
+  width: auto;
 }
 
 .statName {
