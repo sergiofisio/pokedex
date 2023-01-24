@@ -1,22 +1,21 @@
 {
   "files": {
-    "main.css": "/pokedex/static/css/main.bc3e13d8.css",
-    "main.js": "/pokedex/static/js/main.64a30a2b.js",
-    "static/media/background.svg": "/pokedex/static/media/background.aefa55ee4abe27ec3e66.svg",
+    "main.css": "/pokedex/static/css/main.abae8143.css",
+    "main.js": "/pokedex/static/js/main.52868cfc.js",
     "static/media/logo_pokemon.svg": "/pokedex/static/media/logo_pokemon.929cd5ff679c722d378642d3c5867d57.svg",
     "static/media/pokeball-icon.svg": "/pokedex/static/media/pokeball-icon.849ba45af434a8c70951e557843d6374.svg",
     "static/media/pokeball.svg": "/pokedex/static/media/pokeball.499612a7b5342abac926a67c13deb442.svg",
     "static/media/arrow_left.svg": "/pokedex/static/media/arrow_left.6b791c06be0aebf8fa32fe838d0e5aa7.svg",
     "static/media/arrow_right.svg": "/pokedex/static/media/arrow_right.730f27518fc8938412a449318aaa6f47.svg",
     "static/media/ultraball-icon.svg": "/pokedex/static/media/ultraball-icon.e5c7066637babeb3a2243658f1fd09b8.svg",
-    "index.html": "/pokedex/index.html",
     "static/media/close-white.svg": "/pokedex/static/media/close-white.daf4098187ae95f845159668f2223e01.svg",
+    "index.html": "/pokedex/index.html",
     "static/media/arrow-bottom-info.svg": "/pokedex/static/media/arrow-bottom-info.45b81acaf05189856a51456b66801f03.svg",
-    "main.bc3e13d8.css.map": "/pokedex/static/css/main.bc3e13d8.css.map",
-    "main.64a30a2b.js.map": "/pokedex/static/js/main.64a30a2b.js.map"
+    "main.abae8143.css.map": "/pokedex/static/css/main.abae8143.css.map",
+    "main.52868cfc.js.map": "/pokedex/static/js/main.52868cfc.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc3e13d8.css",
-    "static/js/main.64a30a2b.js"
+    "static/css/main.abae8143.css",
+    "static/js/main.52868cfc.js"
   ]
 }
