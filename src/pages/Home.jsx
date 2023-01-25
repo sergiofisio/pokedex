@@ -11,6 +11,8 @@ let currentPage = 0
 let count = 0
 
 export const Home = () => {
+    console.log('height ' + window.screen.height);
+    console.log('width ' + window.screen.width);
     const [pokemons, setPokemons] = useState([])
     const [page, setPage] = useState([])
     const [hidden, setHidden] = useState(true)
