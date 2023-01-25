@@ -41,7 +41,7 @@ export default function Modal({ pokemon, setHidden }) {
                 <div className="body__modal">
                     <div className="info">
                         <div className="imgPokemon">
-                            <img src={img} alt='img pokemon' />
+                            <img src={img} alt='img_pokemon' />
                         </div>
                         <div className='all__info'>
                             <div className="name__type">
