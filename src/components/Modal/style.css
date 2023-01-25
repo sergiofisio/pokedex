@@ -101,6 +101,16 @@
   height: 50px;
 }
 
+.type > h2 {
+  display: flex;
+  align-items: center;
+}
+
+.imgType {
+  width: 40px;
+  margin-right: 5px;
+}
+
 .name__modal {
   display: flex;
   align-items: center;

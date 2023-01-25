@@ -20,7 +20,7 @@ export const Home = () => {
         GetPokemon(pokemonNumber)
     }, [page])
 
-    function btnPrev() {
+    function handleBtnPrev() {
         pokemonNumber -= 30
         currentPage -= 1
 
@@ -31,7 +31,7 @@ export const Home = () => {
         return setPage(currentPage)
     }
 
-    function btnNext() {
+    function handleBtnNext() {
         pokemonNumber += 30
         currentPage += 1
 
@@ -61,9 +61,9 @@ export const Home = () => {
         <div className='container'>
             <Navbar />
             <div className='page'>
-                <img onClick={() => btnPrev()} src={arrowLeft} alt="Pagina anterior" />
+                <img onClick={() => handleBtnPrev()} src={arrowLeft} alt="Pagina anterior" />
                 <h1>{page + 1}</h1>
-                <img onClick={() => btnNext()} src={arrowRight} alt="Próxima página" />
+                <img onClick={() => handleBtnNext()} src={arrowRight} alt="Próxima página" />
             </div>
             <main className='container_cards'>
                 {pokemons.map((pokemon, key) => {

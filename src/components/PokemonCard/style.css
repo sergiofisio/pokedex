@@ -13,9 +13,15 @@
   background-size: 75%;
   background-position: top;
   background-repeat: no-repeat;
+  box-shadow: 10px 20px 30px #3b3b3b inset;
 
   margin: 10px;
   cursor: pointer;
+}
+
+.shadow {
+  -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+  filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
 }
 
 .card h1 {
@@ -25,7 +31,7 @@
 
   background-color: black;
   width: 100%;
-  color: var(--bg-card);
+  color: #ffffff;
   text-align: center;
 
   border-radius: 0 0 25px 25px;

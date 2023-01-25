@@ -14,12 +14,12 @@ export default function Navbar() {
         if (theme === 'light') {
             root.style.setProperty('--header', 'rgb(255, 196, 0)')
             root.style.setProperty('--background', '#4646467a')
-            root.style.setProperty('bg-card', '#464646bd')
+            root.style.setProperty('--bg-card', '#464646bd')
             localTheme = 'dark'
         } else if (theme === 'dark') {
             root.style.setProperty('--header', 'rgb(255, 61, 0)')
             root.style.setProperty('--background', '#d0d0d0b1')
-            root.style.setProperty('bg-card', '#cec6c6c9')
+            root.style.setProperty('--bg-card', '#cec6c6c9')
             localTheme = 'light'
         }
         setTheme(localTheme)
