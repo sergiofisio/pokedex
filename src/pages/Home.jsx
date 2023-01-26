@@ -62,6 +62,7 @@ export const Home = () => {
     return (
         <div className='container'>
             <Navbar />
+            <h1>hello</h1>
             <div className='page'>
                 <img onClick={() => handleBtnPrev()} src={arrowLeft} alt="Pagina anterior" />
                 <h1>{page + 1}</h1>
