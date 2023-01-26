@@ -3,24 +3,8 @@ import arrowInfo from "../../assets/icon/arrow-bottom-info.svg";
 import close from "../../assets/icon/close-white.svg";
 import pokeballModal from "../../assets/icon/pokeball-icon.svg";
 import pokeball from "../../assets/pokeball.svg";
-import bug from "../../assets/types/bug.svg";
-import dark from "../../assets/types/dark.svg";
-import dragon from "../../assets/types/dragon.svg";
-import eletric from "../../assets/types/electric.svg";
-import fairy from "../../assets/types/fairy.svg";
-import fighting from "../../assets/types/fighting.svg";
-import fire from "../../assets/types/fire.svg";
-import fly from "../../assets/types/flying.svg";
-import ghost from "../../assets/types/ghost.svg";
-import grass from "../../assets/types/grass.svg";
-import ground from "../../assets/types/ground.svg";
-import ice from "../../assets/types/ice.svg";
-import normal from "../../assets/types/normal.svg";
-import poison from "../../assets/types/poison.svg";
-import psych from "../../assets/types/psychic.svg";
-import rock from "../../assets/types/rock.svg";
-import steel from "../../assets/types/steel.svg";
-import water from "../../assets/types/water.svg";
+import { types } from '../../types.js';
+
 import './style.css';
 
 export default function Modal({ pokemon, setHidden }) {
@@ -51,60 +35,7 @@ export default function Modal({ pokemon, setHidden }) {
                                 </div>
                                 <div className="type">
                                     {pokemon.types.map(({ type }, key) => {
-                                        let pkType = ''
-                                        if (type.name === 'grass') {
-                                            pkType = grass
-                                        }
-                                        if (type.name === 'bug') {
-                                            pkType = bug
-                                        }
-                                        if (type.name === 'dark') {
-                                            pkType = dark
-                                        }
-                                        if (type.name === 'dragon') {
-                                            pkType = dragon
-                                        }
-                                        if (type.name === 'electric') {
-                                            pkType = eletric
-                                        }
-                                        if (type.name === 'fairy') {
-                                            pkType = fairy
-                                        }
-                                        if (type.name === 'fighting') {
-                                            pkType = fighting
-                                        }
-                                        if (type.name === 'fire') {
-                                            pkType = fire
-                                        }
-                                        if (type.name === 'flying') {
-                                            pkType = fly
-                                        }
-                                        if (type.name === 'ghost') {
-                                            pkType = ghost
-                                        }
-                                        if (type.name === 'ground') {
-                                            pkType = ground
-                                        } else if (type.name === 'ice') {
-                                            pkType = ice
-                                        }
-                                        if (type.name === 'normal') {
-                                            pkType = normal
-                                        }
-                                        if (type.name === "poison") {
-                                            pkType = poison
-                                        }
-                                        if (type.name === 'psychic') {
-                                            pkType = psych
-                                        }
-                                        if (type.name === 'rock') {
-                                            pkType = rock
-                                        }
-                                        if (type.name === "steel") {
-                                            pkType = steel
-                                        }
-                                        if (type.name === "water") {
-                                            pkType = water
-                                        }
+                                        let pkType = types[type.name]
                                         return (
                                             <h2 key={key} className=''><img className='imgType' src={pkType} alt="" />{type.name}</h2>
                                         )
